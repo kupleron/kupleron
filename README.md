@@ -3,9 +3,9 @@
 #### I'm a Full-Stack Developer working in Marrakech, Morocco.
 
 - 🏢 I'm currently working at **Home**
-- ⚙️ I use daily: `.php`, `.js`, `.html`, `.css`, `.psd`, `.ai`
+- ⚙️ I use daily: `.php`, `.js`, `.py`, `.html`, `.css`
 - 🌱 Learning all about **Open Source**
-- 💬 Ping me about **laravel**, **javascript**, **react**, **development**, **design patterns**
+- 💬 Ping me about **laravel**, **javascript**, **python**, **react**, **development**, **design patterns**
 - 📫 Reach me: [twitter.com/kupleron](https://twitter.com/kupleron), [khalid@souh.al](mailto:khalid@souh.al)
 
 
@@ -31,6 +31,7 @@ class About extends Me
         return [
             Php::class,
             Javascript::class,
+            Python::class,
             Laravel::class,
             Vuejs::class,
             React::class,
