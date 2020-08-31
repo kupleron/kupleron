@@ -1,16 +1,48 @@
 ### Hi there 👋
 
-<!--
-**kupleron/kupleron** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### I'm a Full-Stack Developer working in Marrakech, Morocco.
 
-Here are some ideas to get you started:
+- 🏢 I'm currently working at **Home**
+- ⚙️ I use daily: `.php`, `.js`, `.html`, `.css`, `.psd`, `.ai`
+- 🌱 Learning all about **Open Source**
+- 💬 Ping me about **laravel**, **javascript**, **react**, **development**, **design patterns**
+- 📫 Reach me: [twitter.com/kupleron](https://twitter.com/kupleron), [khalid@souh.al](mailto:khalid@souh.al)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+```php
+<?php
+
+namespace Kupleron;
+
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => Null,
+                'position' => 'Full Stack Developer'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge()
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Vuejs::class,
+            React::class,
+            ReactNative::class,
+            TailwindCss::class,
+            Aws::class,
+        ];
+    }
+
+    public function getFutureGoal()
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
